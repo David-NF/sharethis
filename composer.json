@@ -1,0 +1,35 @@
+{
+	"name": "cece74/sharethis",
+	"type": "phpbb-extension",
+	"description": "Displays all social media buttons and social bookmark.",
+	"homepage": "http://www.microcosmoacquari.it/forum/",
+	"version": "1.0.6",
+	"keywords": ["phpbb3", "extension", "social"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Cece74",
+			"homepage": "http://phpbbextension.altervista.org/",
+			"email": "forumacquariofilia@libero.it",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "ShareThis",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+		},
+		"version-check": {
+			"host": "",
+			"directory": "",
+			"filename": ""
+		}
+	}
+}
